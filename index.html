@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>耳机论坛</title>
+  <link rel="stylesheet" href="./css/layui.css">
+  <link rel="stylesheet" href="index.css">
+  <style>
+ 
+</style>
+</head>
+<body>
+ 
+<!-- 你的HTML代码 -->
+<div class="layui-container">  
+    <ul class="layui-nav" lay-filter="">
+   <li class="layui-nav-item"><a href=""><img src="./logo.png" alt=""
+    width="75px" height="60px" 
+   	></a></li>
+  <li class="layui-nav-item"><a href="">最新活动</a></li>
+
+  <li class="layui-nav-item"><a href="">大耳机讨论区</a></li>
+  <li class="layui-nav-item"><a href="">官方推送</a></li>
+  <li class="layui-nav-item"><a href="">关于我们</a></li>
+  <li class="layui-nav-item">
+    <a href="javascript:;">解决方案</a>
+    <dl class="layui-nav-child"> <!-- 二级菜单 -->
+      <dd><a href="">移动模块</a></dd>
+      <dd><a href="">后台模版</a></dd>
+      <dd><a href="">电商平台</a></dd>
+    </dl>
+  </li>
+  <li class="layui-nav-item"><a href="">社区</a></li>
+  <li class="sosuo">
+        <div class="zySearch" id="zySearch"></div>
+	
+
+
+
+
+
+  </li>
+</ul>
+  </div>
+<div  height="50px">
+</div>
+ <div class="lunbo">
+<div class="layui-container">  
+     <div class="layui-carousel" id="test1">
+  <div carousel-item>
+    <div><a href=""><img src="1.jpg" alt="" height="100px" width="100px"></a></div>
+     <div><a href=""><img src="1.jpg" alt="" height="100px" width="100px"></a></div>
+      <div><a href=""><img src="1.jpg" alt="" height="100px" width="100px"></a></div>
+       <div><a href=""><img src="1.jpg" alt="" height="100px" width="100px"></a></div>
+        <div><a href=""><img src="1.jpg" alt="" height="100px" width="100px"></a></div>
+    
+  </div>
+</div>
+  </div>
+
+
+ </div>
+
+  <div class="sanzhang">
+    <div class="layui-container">
+   <div class="layui-row " >   
+      <div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+          <a href=""><img src="1.jpg" alt="" height="200px" width="200px"></a> 
+    </div>
+    <div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+         <a href=""><img src="1.jpg" alt="" height="200px" width="200px"></a> 
+    </div>
+    <div class="layui-col-xs4 layui-col-sm12 layui-col-md4">
+           <a href=""><img src="1.jpg" alt="" height="200px" width="200px"></a> 
+    </div>
+
+
+   </div>
+</div>
+
+
+  </div>
+
+<!--文章部分-->
+<div class="wenzhang">
+
+<div class="layui-container">
+<div class="layui-row">
+    <div class="layui-col-xs8">
+      <div class="grid-demo">
+         
+      <div class="layui-container">
+            <div class="daohang">
+               <button class="layui-btn layui-btn-normal">最新</button>
+            <button class="layui-btn layui-btn-normal">短片</button>
+            <button class="layui-btn layui-btn-normal">活动</button>
+            <button class="layui-btn layui-btn-normal">文章</button>
+            <button class="layui-btn layui-btn-normal">品牌</button>
+
+
+
+
+            </div>
+            
+
+
+
+
+
+
+
+
+
+
+         </div>
+           <div class="boke"></div>
+
+
+
+
+
+
+
+      </div>
+    </div>
+    <div class="layui-col-xs4">
+      <div class="grid-demo">
+      	<div class="tuijianlan">
+             <ul class="layui-nav" lay-filter="">
+   <li class="layui-nav-item"><img src="./logo.png" alt=""
+    width="75px" height="60px" 
+   	></li>
+  <li class="layui-nav-item"><h1>推荐专题&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h1></li>
+
+  
+</ul>
+
+
+
+      	</div>
+          
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+ 
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./layui.js"></script>
+<script>
+
+//注意：导航 依赖 element 模块，否则无法进行功能性操作
+layui.use('element', function(){
+  var element = layui.element;
+  
+  //…
+});
+
+// 轮播代码
+layui.use('carousel', function(){
+  var carousel = layui.carousel;
+  //建造实例
+  carousel.render({
+    elem: '#test1'
+    ,width: '100%' //设置容器宽度
+    ,arrow: 'always' //始终显示箭头
+    //,anim: 'updown' //切换动画方式
+  });
+});
+
+</script> 
+</body>
+</html>

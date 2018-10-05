@@ -1,0 +1,30 @@
+.lunbo{
+	margin-top: 40px;
+}
+.sanzhang .layui-row div{
+	width: 360px;
+	height:200px;
+    margin-left: 20px;
+   margin-top: 40px;
+}
+.layui-carousel{
+	margin-top: 40px;
+}
+.daohang{
+	margin-left: 80px;
+	margin-top: 40px;
+}
+.tuijianlan h1{
+	font-size: 25px;
+    margin-left: 50px;
+
+}
+.tuijianlan .layui-nav{
+	margin-right: 20px;
+}
+.tuijianlan{
+	margin-top: 40px;
+}
+.tuijianlan .layui-nav-item+.layui-nav-item{
+	margin-left:40px;
+}
